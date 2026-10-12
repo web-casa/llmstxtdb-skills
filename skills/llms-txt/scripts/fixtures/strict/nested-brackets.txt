@@ -1,0 +1,8 @@
+# Title
+
+> Summary.
+
+## Docs
+
+- [Outer [inner [deep]] text](https://example.com/nested): Deeply nested brackets in the link text
+- [Guide](https://example.com/guide): The guide

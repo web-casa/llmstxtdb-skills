@@ -1,0 +1,9 @@
+# Title
+
+> The real summary.
+
+## Docs
+
+- [Guide](https://example.com/guide): The guide
+
+>

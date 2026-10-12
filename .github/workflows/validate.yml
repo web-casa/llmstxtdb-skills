@@ -1,0 +1,42 @@
+name: Validate
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validator:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
+        python: ["3.9", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Validator self-tests
+        run: python skills/llms-txt/scripts/test_validate.py
+      - name: Validator runs on a fixture
+        run: python skills/llms-txt/scripts/validate_llms_txt.py skills/llms-txt/scripts/fixtures/strict/valid-minimal.txt
+
+  skill:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Skill layout and manifests
+        run: python scripts/check_skill.py
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Discoverable by the skills CLI
+        run: npx --yes skills add . --list

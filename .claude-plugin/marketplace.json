@@ -1,0 +1,12 @@
+{
+  "name": "llmstxtdb-skills",
+  "description": "Agent Skills from llmstxtdb: write, validate, fix and deploy llms.txt files.",
+  "owner": { "name": "llmstxtdb" },
+  "plugins": [
+    {
+      "name": "llmstxtdb",
+      "source": "./",
+      "description": "The llms-txt skill: authoring workflow, issue-code reference and a dependency-free validator for the llmstxt.org proposal."
+    }
+  ]
+}

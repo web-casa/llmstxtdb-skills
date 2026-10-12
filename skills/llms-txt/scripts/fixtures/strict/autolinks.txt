@@ -1,0 +1,8 @@
+# Title
+
+> Summary.
+
+## Docs
+
+- <https://example.com/auto>: An autolink
+- <https://example.com/second>

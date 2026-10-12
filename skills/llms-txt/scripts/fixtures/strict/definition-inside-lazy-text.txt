@@ -1,0 +1,10 @@
+# Title
+
+> Summary.
+
+## Docs
+
+- [API](https://example.com/api)
+Title
+[r1]: https://example.com/r1
+- [Ref][r1]: reference

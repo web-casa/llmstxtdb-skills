@@ -1,0 +1,14 @@
+# Title
+
+> Summary line one
+> continues on line two.
+
+Some prose after the summary.
+
+---
+
+## Docs
+
+- [Guide](https://example.com/guide) — an em dash description
+- [API](https://example.com/api)： a full-width colon description
+- [Emph](https://example.com/emph): with *emphasis* and `code`

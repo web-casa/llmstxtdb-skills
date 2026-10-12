@@ -1,0 +1,24 @@
+# Title
+
+> Summary.
+
+## Docs
+
+- [A](https://example.com/a "draft )"): Title with a stray closing parenthesis
+- [B](https://example.com/b "draft ("): Title with a stray opening parenthesis
+- [C](https://example.com/c_(disambiguation)): Balanced parentheses in the address
+- [D](https://example.com/d 'single (quoted)'): Single-quoted title
+- [E](https://example.com/e (paren title)): Parenthesised title
+- [F](https://example.com/f(x) "draft )"): Balanced address, stray parenthesis in the title
+- [G](https://example.com/g         "wide ("): Wide gap before the title
+- [H](<https://example.com/h> "angle )"): Angle-bracket address with a title
+
+<a title=">">
+# Swallowed by the HTML block above
+
+<a /garbage>
+
+## More
+
+- [I](https://example.com/i): After the HTML lines
+- [J](https://example.com/j\(k\) "escaped )"): Escaped parentheses in the address

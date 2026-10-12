@@ -1,0 +1,13 @@
+# Title
+
+> Summary.
+
+## Docs
+
+- [Guide](https://example.com/guide): The guide
+  - a nested note without a link
+  - [Nested link](https://example.com/nested): only top-level items are entries
+- Parent without its own link
+  - [Child link](https://example.com/child): the link belongs to the parent item
+- Parent with nothing
+  - child with nothing

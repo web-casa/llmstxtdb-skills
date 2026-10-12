@@ -1,0 +1,22 @@
+# Title
+
+> Summary.
+
+## Docs
+
+- [Guide](https://example.com/guide): The guide
+
+```markdown
+# Not a real heading
+
+> Not the summary
+
+### Not a deep heading
+
+- not a real list item
+```
+
+~~~
+# Also ignored
+- also ignored
+~~~

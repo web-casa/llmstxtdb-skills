@@ -1,0 +1,34 @@
+{
+  "definition-under-code.txt": {
+    "verdict": "WARN",
+    "spec": {
+      "SPEC_ENTRY_NOT_LINK/MINOR": 1
+    },
+    "advice": {},
+    "adviceNonStandard": true
+  },
+  "indented-item-after-code.txt": {
+    "verdict": "WARN",
+    "spec": {
+      "SPEC_ENTRY_NOT_LINK/MINOR": 1
+    },
+    "advice": {},
+    "adviceNonStandard": true
+  },
+  "quote-then-indented-item.txt": {
+    "verdict": "WARN",
+    "spec": {
+      "SPEC_ENTRY_NOT_LINK/MINOR": 1
+    },
+    "advice": {},
+    "adviceNonStandard": true
+  },
+  "tab-text-then-ordered.txt": {
+    "verdict": "WARN",
+    "spec": {
+      "SPEC_ENTRY_NOT_LINK/MINOR": 1
+    },
+    "advice": {},
+    "adviceNonStandard": true
+  }
+}

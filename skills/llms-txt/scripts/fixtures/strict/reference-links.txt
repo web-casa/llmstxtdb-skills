@@ -1,0 +1,12 @@
+# Title
+
+> Summary.
+
+## Docs
+
+- [Guide][guide]: Reference style
+- [api]: Shortcut reference
+- [Missing][nope]: The definition does not exist
+
+[guide]: https://example.com/guide
+[api]: https://example.com/api

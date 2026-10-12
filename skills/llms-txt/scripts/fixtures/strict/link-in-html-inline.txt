@@ -1,0 +1,8 @@
+# Title
+
+> Summary.
+
+## Docs
+
+- <a href="https://example.com/html">HTML anchor</a>: not a Markdown link
+- [Guide](https://example.com/guide): The guide

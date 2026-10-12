@@ -1,0 +1,13 @@
+#NotAHeading
+
+# Title #
+
+> Summary.
+
+##
+
+- [Guide](https://example.com/guide): The guide
+
+    # indented code, not a heading
+
+####### seven hashes is a paragraph

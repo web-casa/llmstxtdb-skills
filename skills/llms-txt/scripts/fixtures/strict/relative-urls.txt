@@ -1,0 +1,10 @@
+# Title
+
+> Summary.
+
+## Docs
+
+- [Guide](/docs/guide): Relative to the site root
+- [API](docs/api.md): Relative to the file
+- [Up](../other/page): Parent directory
+- [Absolute](https://example.com/abs): Absolute

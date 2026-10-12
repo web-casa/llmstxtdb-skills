@@ -1,0 +1,294 @@
+{
+  "autolinks.txt": {
+    "verdict": "PASS",
+    "spec": {},
+    "advice": {
+      "ADVICE_ENTRY_NO_DESCRIPTION": 1
+    },
+    "adviceNonStandard": true
+  },
+  "bom-crlf.txt": {
+    "verdict": "WARN",
+    "spec": {
+      "SPEC_ENTRY_NOT_LINK/MINOR": 1
+    },
+    "advice": {},
+    "adviceNonStandard": true
+  },
+  "bullets-and-ordered.txt": {
+    "verdict": "WARN",
+    "spec": {
+      "SPEC_ENTRY_NOT_LINK/MINOR": 1
+    },
+    "advice": {},
+    "adviceNonStandard": true
+  },
+  "code-fence-noise.txt": {
+    "verdict": "PASS",
+    "spec": {},
+    "advice": {},
+    "adviceNonStandard": true
+  },
+  "definition-after-empty-quote.txt": {
+    "verdict": "WARN",
+    "spec": {
+      "SPEC_SUMMARY_EMPTY/MINOR": 1
+    },
+    "advice": {
+      "ADVICE_ENTRY_NO_DESCRIPTION": 1
+    },
+    "adviceNonStandard": true
+  },
+  "definition-inside-lazy-text.txt": {
+    "verdict": "WARN",
+    "spec": {
+      "SPEC_ENTRY_NOT_LINK/MINOR": 1
+    },
+    "advice": {},
+    "adviceNonStandard": true
+  },
+  "duplicate-urls.txt": {
+    "verdict": "PASS",
+    "spec": {},
+    "advice": {},
+    "adviceNonStandard": true
+  },
+  "empty-item-then-nested.txt": {
+    "verdict": "WARN",
+    "spec": {
+      "SPEC_ENTRY_NOT_LINK/MINOR": 1
+    },
+    "advice": {},
+    "adviceNonStandard": true
+  },
+  "empty-marker-nested-chain.txt": {
+    "verdict": "WARN",
+    "spec": {
+      "SPEC_ENTRY_NOT_LINK/MINOR": 2
+    },
+    "advice": {},
+    "adviceNonStandard": true
+  },
+  "empty-marker-then-tab.txt": {
+    "verdict": "WARN",
+    "spec": {
+      "SPEC_ENTRY_NOT_LINK/MINOR": 1
+    },
+    "advice": {},
+    "adviceNonStandard": true
+  },
+  "empty.txt": {
+    "verdict": "FAIL",
+    "spec": {
+      "SPEC_H1_MISSING/CRITICAL": 1
+    },
+    "advice": {
+      "ADVICE_SUMMARY_MISSING": 1
+    },
+    "adviceNonStandard": true
+  },
+  "entry-not-link.txt": {
+    "verdict": "WARN",
+    "spec": {
+      "SPEC_ENTRY_NOT_LINK/MINOR": 4
+    },
+    "advice": {},
+    "adviceNonStandard": true
+  },
+  "h1-missing.txt": {
+    "verdict": "FAIL",
+    "spec": {
+      "SPEC_H1_MISSING/CRITICAL": 1
+    },
+    "advice": {},
+    "adviceNonStandard": true
+  },
+  "h1-multiple.txt": {
+    "verdict": "FAIL",
+    "spec": {
+      "SPEC_H1_MULTIPLE/MAJOR": 1
+    },
+    "advice": {},
+    "adviceNonStandard": true
+  },
+  "heading-edge-cases.txt": {
+    "verdict": "PASS",
+    "spec": {},
+    "advice": {},
+    "adviceNonStandard": true
+  },
+  "html-block.txt": {
+    "verdict": "PASS",
+    "spec": {},
+    "advice": {},
+    "adviceNonStandard": true
+  },
+  "images-and-empty-links.txt": {
+    "verdict": "WARN",
+    "spec": {
+      "SPEC_ENTRY_NOT_LINK/MINOR": 2
+    },
+    "advice": {},
+    "adviceNonStandard": true
+  },
+  "lazy-list-continuation.txt": {
+    "verdict": "PASS",
+    "spec": {},
+    "advice": {},
+    "adviceNonStandard": true
+  },
+  "link-in-html-inline.txt": {
+    "verdict": "WARN",
+    "spec": {
+      "SPEC_ENTRY_NOT_LINK/MINOR": 1
+    },
+    "advice": {},
+    "adviceNonStandard": true
+  },
+  "many-not-link.txt": {
+    "verdict": "WARN",
+    "spec": {
+      "SPEC_ENTRY_NOT_LINK/MINOR": 40
+    },
+    "advice": {},
+    "adviceNonStandard": true
+  },
+  "nested-brackets.txt": {
+    "verdict": "PASS",
+    "spec": {},
+    "advice": {},
+    "adviceNonStandard": true
+  },
+  "nested-lists.txt": {
+    "verdict": "WARN",
+    "spec": {
+      "SPEC_ENTRY_NOT_LINK/MINOR": 1
+    },
+    "advice": {},
+    "adviceNonStandard": true
+  },
+  "no-description.txt": {
+    "verdict": "PASS",
+    "spec": {},
+    "advice": {
+      "ADVICE_ENTRY_NO_DESCRIPTION": 1
+    },
+    "adviceNonStandard": true
+  },
+  "no-sections.txt": {
+    "verdict": "PASS",
+    "spec": {},
+    "advice": {
+      "ADVICE_NO_SECTIONS": 1
+    },
+    "adviceNonStandard": true
+  },
+  "non-http-schemes.txt": {
+    "verdict": "PASS",
+    "spec": {},
+    "advice": {
+      "ADVICE_RELATIVE_URL": 1
+    },
+    "adviceNonStandard": true
+  },
+  "only-prose.txt": {
+    "verdict": "FAIL",
+    "spec": {
+      "SPEC_H1_MISSING/CRITICAL": 1
+    },
+    "advice": {
+      "ADVICE_SUMMARY_MISSING": 1
+    },
+    "adviceNonStandard": true
+  },
+  "prose-and-separators.txt": {
+    "verdict": "PASS",
+    "spec": {},
+    "advice": {},
+    "adviceNonStandard": true
+  },
+  "reference-links.txt": {
+    "verdict": "WARN",
+    "spec": {
+      "SPEC_ENTRY_NOT_LINK/MINOR": 1
+    },
+    "advice": {},
+    "adviceNonStandard": true
+  },
+  "relative-urls.txt": {
+    "verdict": "PASS",
+    "spec": {},
+    "advice": {
+      "ADVICE_RELATIVE_URL": 1
+    },
+    "adviceNonStandard": true
+  },
+  "rule-then-indented-text.txt": {
+    "verdict": "WARN",
+    "spec": {
+      "SPEC_ENTRY_NOT_LINK/MINOR": 1
+    },
+    "advice": {},
+    "adviceNonStandard": true
+  },
+  "second-blockquote.txt": {
+    "verdict": "PASS",
+    "spec": {},
+    "advice": {},
+    "adviceNonStandard": true
+  },
+  "section-depth.txt": {
+    "verdict": "WARN",
+    "spec": {
+      "SPEC_SECTION_DEPTH/MINOR": 1
+    },
+    "advice": {},
+    "adviceNonStandard": true
+  },
+  "setext-headings.txt": {
+    "verdict": "PASS",
+    "spec": {},
+    "advice": {},
+    "adviceNonStandard": true
+  },
+  "summary-empty.txt": {
+    "verdict": "WARN",
+    "spec": {
+      "SPEC_SUMMARY_EMPTY/MINOR": 1
+    },
+    "advice": {},
+    "adviceNonStandard": true
+  },
+  "summary-missing.txt": {
+    "verdict": "PASS",
+    "spec": {},
+    "advice": {
+      "ADVICE_SUMMARY_MISSING": 1
+    },
+    "adviceNonStandard": true
+  },
+  "tabs-and-odd-indent.txt": {
+    "verdict": "PASS",
+    "spec": {},
+    "advice": {},
+    "adviceNonStandard": true
+  },
+  "titles-with-parens.txt": {
+    "verdict": "PASS",
+    "spec": {},
+    "advice": {},
+    "adviceNonStandard": true
+  },
+  "valid-minimal.txt": {
+    "verdict": "PASS",
+    "spec": {},
+    "advice": {},
+    "adviceNonStandard": true
+  },
+  "valid-with-optional.txt": {
+    "verdict": "PASS",
+    "spec": {},
+    "advice": {},
+    "adviceNonStandard": true
+  }
+}

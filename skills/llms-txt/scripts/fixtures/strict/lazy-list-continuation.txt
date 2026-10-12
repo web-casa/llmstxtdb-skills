@@ -1,0 +1,10 @@
+# Title
+
+> Summary.
+
+## Docs
+
+- [Guide](https://example.com/guide): The guide
+lazy continuation line with [a link](https://example.com/lazy)
+- plain item
+lazy text with [link](https://example.com/rescued)

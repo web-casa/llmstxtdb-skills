@@ -1,0 +1,8 @@
+# My Project
+
+> One sentence about what this project is and who it is for.
+
+## Docs
+
+- [Getting started](https://example.com/start): Install and run in five minutes
+- [API reference](https://example.com/api): Endpoints and parameters

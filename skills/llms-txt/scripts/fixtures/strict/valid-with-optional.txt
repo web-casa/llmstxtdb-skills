@@ -1,0 +1,18 @@
+# Acme SDK
+
+> Client libraries for the Acme API.
+
+Use the v2 client. The v1 client is frozen.
+
+## Docs
+
+- [Quickstart](https://acme.example/docs/quickstart.md): First request in five minutes
+- [Auth](https://acme.example/docs/auth.md): API keys and OAuth
+
+## Examples
+
+- [Retry with backoff](https://acme.example/examples/retry.md): Idempotent retries
+
+## Optional
+
+- [Changelog](https://acme.example/changelog.md): Release history

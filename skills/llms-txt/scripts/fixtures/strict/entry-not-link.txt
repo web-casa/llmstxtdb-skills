@@ -1,0 +1,11 @@
+# Title
+
+> Summary.
+
+## Docs
+
+- [Guide](https://example.com/guide): The guide
+- Just a sentence, not a link
+- https://example.com/bare-url-is-not-a-markdown-link
+- `[looks](https://example.com/like-a-link)` but is inside code
+- Another plain item

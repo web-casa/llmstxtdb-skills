@@ -1,0 +1,10 @@
+# Title
+
+> Summary.
+
+## Docs
+
+- https://example.com/bare
+---
+   continuation text
+Title

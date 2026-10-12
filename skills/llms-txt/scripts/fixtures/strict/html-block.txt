@@ -1,0 +1,12 @@
+# Title
+
+> Summary.
+
+<div>
+# heading inside an HTML block
+- item inside an HTML block
+</div>
+
+## Docs
+
+- [Guide](https://example.com/guide): The guide

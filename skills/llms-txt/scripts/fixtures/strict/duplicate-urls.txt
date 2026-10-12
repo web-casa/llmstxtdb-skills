@@ -1,0 +1,9 @@
+# Title
+
+> Summary.
+
+## Docs
+
+- [Guide](https://example.com/guide): First mention
+- [Guide again](https://example.com/guide#section): Same page, with a fragment
+- [Guide once more](HTTPS://EXAMPLE.com/guide): Same page, different case in scheme and host
