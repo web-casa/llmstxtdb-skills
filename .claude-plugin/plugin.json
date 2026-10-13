@@ -1,7 +1,7 @@
 {
   "name": "llmstxtdb",
   "description": "Write, validate, fix and deploy llms.txt files that follow the llmstxt.org proposal. Bundles a dependency-free validator that uses the same issue codes as the llmstxtdb web checker.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": { "name": "llmstxtdb" },
   "homepage": "https://github.com/web-casa/llmstxtdb-skills",
   "repository": "https://github.com/web-casa/llmstxtdb-skills",

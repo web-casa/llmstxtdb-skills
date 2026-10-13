@@ -1,4 +1,4 @@
-# llms.txt Agent Skill
+# llmstxtdb skills
 
 一个开源的 Agent Skill：帮编码助手**编写、检查、修复、部署** [`llms.txt`](https://llmstxt.org)——给语言模型看的文档索引文件。
 
@@ -27,7 +27,7 @@
 
 ```bash
 npx skills add https://github.com/web-casa/llmstxtdb-skills --list          # 先看看有什么
-npx skills add https://github.com/web-casa/llmstxtdb-skills --skill llms-txt
+npx skills add https://github.com/web-casa/llmstxtdb-skills --skill llmstxtdb
 ```
 
 作为 Claude Code 插件：
@@ -37,7 +37,9 @@ npx skills add https://github.com/web-casa/llmstxtdb-skills --skill llms-txt
 /plugin install llmstxtdb@llmstxtdb-skills
 ```
 
-手动安装：把整个 `skills/llms-txt/` 目录复制到助手的技能目录（Claude Code 是 `~/.claude/skills/` 或项目里的 `.claude/skills/`）。要复制整个目录，不要只复制 `SKILL.md`——参考文档和校验脚本都是 skill 的一部分。如果已经装了另一个同名的 `llms-txt` skill，把这个目录和 `SKILL.md` 里的 `name:` 一起改名。
+手动安装：把整个 `skills/llmstxtdb/` 目录复制到助手的技能目录（Claude Code 是 `~/.claude/skills/` 或项目里的 `.claude/skills/`）。要复制整个目录，不要只复制 `SKILL.md`——参考文档和校验脚本都是 skill 的一部分。
+
+**从 0.1.0 升级。** 0.2.0 起技能从 `llms-txt` 改名为 `llmstxtdb`，以免和其他讲 llms.txt 的技能混淆。安装前先把助手技能目录里旧的 `llms-txt` 目录删掉（或执行 `npx skills remove llms-txt`），否则助手会找到两份。调用名是 `/llmstxtdb`；作为 Claude Code 插件安装时是 `/llmstxtdb:llmstxtdb`。
 
 ## 使用
 
@@ -51,9 +53,9 @@ npx skills add https://github.com/web-casa/llmstxtdb-skills --skill llms-txt
 也可以自己运行脚本（Python 3.9+，只用标准库）：
 
 ```bash
-python3 skills/llms-txt/scripts/validate_llms_txt.py public/llms.txt
-python3 skills/llms-txt/scripts/validate_llms_txt.py https://example.com/llms.txt --check-links
-python3 skills/llms-txt/scripts/validate_llms_txt.py public/llms.txt --json
+python3 skills/llmstxtdb/scripts/validate_llms_txt.py public/llms.txt
+python3 skills/llmstxtdb/scripts/validate_llms_txt.py https://example.com/llms.txt --check-links
+python3 skills/llmstxtdb/scripts/validate_llms_txt.py public/llms.txt --json
 ```
 
 规范未通过或部署检查失败时退出码为 `1`，可以直接放进 CI。
@@ -66,7 +68,7 @@ python3 skills/llms-txt/scripts/validate_llms_txt.py public/llms.txt --json
 
 ## 问题码
 
-中文版问题码参考：[`skills/llms-txt/references/error-codes.zh-CN.md`](skills/llms-txt/references/error-codes.zh-CN.md)（由检查器的修复手册生成）。
+中文版问题码参考：[`skills/llmstxtdb/references/error-codes.zh-CN.md`](skills/llmstxtdb/references/error-codes.zh-CN.md)（由检查器的修复手册生成）。
 
 ## 致谢
 

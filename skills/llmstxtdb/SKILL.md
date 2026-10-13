@@ -1,10 +1,10 @@
 ---
-name: llms-txt
+name: llmstxtdb
 description: Write, review, fix and deploy llms.txt files that follow the llmstxt.org proposal. Use when the user asks to create or generate an llms.txt, audit or validate an existing one, fix issues from an llmstxtdb report (codes such as SPEC_H1_MISSING, SPEC_ENTRY_NOT_LINK, SPA_DETECTED, LINK_HEALTH), or debug why a deployed /llms.txt is not readable (404, HTML returned instead of Markdown, wrong Content-Type, redirects). Also covers llms-full.txt, per-page .md versions and sub-path llms.txt files. Triggers - llms.txt, llms-full.txt, llmstxt, "make my docs readable by AI agents", "LLM-friendly docs index", 生成 llms.txt, 检查 llms.txt, 修复 llms.txt. Not for robots.txt or sitemap.xml work.
 license: MIT
 metadata:
   author: llmstxtdb
-  version: "0.1.0"
+  version: "0.2.0"
 ---
 
 # llms.txt

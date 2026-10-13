@@ -9,7 +9,7 @@ import re
 import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SKILL = os.path.join(ROOT, "skills", "llms-txt")
+SKILL = os.path.join(ROOT, "skills", "llmstxtdb")
 errors = []
 
 
@@ -25,7 +25,7 @@ check(m is not None, "SKILL.md: missing YAML front matter")
 front = m.group(1) if m else ""
 name = re.search(r"^name:\s*(\S+)\s*$", front, re.M)
 desc = re.search(r"^description:\s*(.+)$", front, re.M)
-check(bool(name) and name.group(1) == "llms-txt", "SKILL.md: name must be llms-txt (and match the directory)")
+check(bool(name) and name.group(1) == "llmstxtdb", "SKILL.md: name must be llmstxtdb (and match the directory)")
 check(bool(name) and re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", name.group(1)) is not None, "SKILL.md: name must be lowercase words joined by hyphens")
 check(bool(desc) and 40 <= len(desc.group(1)) <= 1024, "SKILL.md: description must be 40-1024 characters")
 check(len(skill.splitlines()) <= 500, "SKILL.md: keep it under 500 lines; move detail into references/")

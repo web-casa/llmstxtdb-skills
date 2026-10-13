@@ -1,4 +1,4 @@
-# llms.txt Agent Skill
+# llmstxtdb skills
 
 [![Validate](https://github.com/web-casa/llmstxtdb-skills/actions/workflows/validate.yml/badge.svg)](https://github.com/web-casa/llmstxtdb-skills/actions/workflows/validate.yml)
 
@@ -29,7 +29,7 @@ With the `skills` CLI (works for Claude Code, Codex and other agents that load A
 
 ```bash
 npx skills add https://github.com/web-casa/llmstxtdb-skills --list          # inspect first
-npx skills add https://github.com/web-casa/llmstxtdb-skills --skill llms-txt
+npx skills add https://github.com/web-casa/llmstxtdb-skills --skill llmstxtdb
 ```
 
 As a Claude Code plugin:
@@ -39,7 +39,9 @@ As a Claude Code plugin:
 /plugin install llmstxtdb@llmstxtdb-skills
 ```
 
-By hand: copy the whole `skills/llms-txt/` directory into your agent's skills directory (for Claude Code, `~/.claude/skills/` or `.claude/skills/` in a project). Copy the directory, not `SKILL.md` alone — the references and the validator are part of the skill. If you already have another skill named `llms-txt`, rename this directory and the `name:` field in `SKILL.md` to match.
+By hand: copy the whole `skills/llmstxtdb/` directory into your agent's skills directory (for Claude Code, `~/.claude/skills/` or `.claude/skills/` in a project). Copy the directory, not `SKILL.md` alone — the references and the validator are part of the skill.
+
+**Upgrading from 0.1.0.** The skill was renamed from `llms-txt` to `llmstxtdb` in 0.2.0, so that it is not confused with other skills about llms.txt. Remove the old `llms-txt` directory from your agent's skills directory (or run `npx skills remove llms-txt`) before installing, otherwise the agent will find two copies. Invoke it as `/llmstxtdb`; installed as a Claude Code plugin it is `/llmstxtdb:llmstxtdb`.
 
 ## Use
 
@@ -53,9 +55,9 @@ Ask in plain words:
 Or run the validator yourself (Python 3.9+, standard library only):
 
 ```bash
-python3 skills/llms-txt/scripts/validate_llms_txt.py public/llms.txt
-python3 skills/llms-txt/scripts/validate_llms_txt.py https://example.com/llms.txt --check-links
-python3 skills/llms-txt/scripts/validate_llms_txt.py public/llms.txt --json
+python3 skills/llmstxtdb/scripts/validate_llms_txt.py public/llms.txt
+python3 skills/llmstxtdb/scripts/validate_llms_txt.py https://example.com/llms.txt --check-links
+python3 skills/llmstxtdb/scripts/validate_llms_txt.py public/llms.txt --json
 ```
 
 ```text
@@ -73,13 +75,13 @@ Metrics: 812 bytes, 2 section(s), 7 entries
 Exit status is `1` on a spec failure or a failed deployment check, so it drops into CI:
 
 ```yaml
-- run: python3 skills/llms-txt/scripts/validate_llms_txt.py public/llms.txt
+- run: python3 skills/llmstxtdb/scripts/validate_llms_txt.py public/llms.txt
 ```
 
 ## What is in the box
 
 ```text
-skills/llms-txt/
+skills/llmstxtdb/
 ├── SKILL.md                     the workflow the agent follows
 ├── references/
 │   ├── spec.md                  what the proposal says, what it does not, known validator differences
@@ -103,7 +105,7 @@ The two parse Markdown differently (line-based here, a full syntax tree there). 
 ## Develop
 
 ```bash
-python3 skills/llms-txt/scripts/test_validate.py
+python3 skills/llmstxtdb/scripts/test_validate.py
 ```
 
 The fixtures' expected results come from the llmstxtdb engine. Changes to parsing rules are made there first; this repository is exported from it.

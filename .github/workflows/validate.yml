@@ -22,9 +22,9 @@ jobs:
         with:
           python-version: ${{ matrix.python }}
       - name: Validator self-tests
-        run: python skills/llms-txt/scripts/test_validate.py
+        run: python skills/llmstxtdb/scripts/test_validate.py
       - name: Validator runs on a fixture
-        run: python skills/llms-txt/scripts/validate_llms_txt.py skills/llms-txt/scripts/fixtures/strict/valid-minimal.txt
+        run: python skills/llmstxtdb/scripts/validate_llms_txt.py skills/llmstxtdb/scripts/fixtures/strict/valid-minimal.txt
 
   skill:
     runs-on: ubuntu-latest

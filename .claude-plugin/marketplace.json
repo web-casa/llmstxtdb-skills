@@ -6,7 +6,7 @@
     {
       "name": "llmstxtdb",
       "source": "./",
-      "description": "The llms-txt skill: authoring workflow, issue-code reference and a dependency-free validator for the llmstxt.org proposal."
+      "description": "The llmstxtdb skill: authoring workflow, issue-code reference and a dependency-free validator for the llmstxt.org proposal."
     }
   ]
 }
